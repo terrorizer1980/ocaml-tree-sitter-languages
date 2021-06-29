@@ -1,6 +1,10 @@
 How to upgrade the grammar for a language
 ==
 
+⚠️ **This document is inherited from ocaml-tree-sitter-semgrep. It needs
+to be adapted as the project gets simplified and independent from
+semgrep.**
+
 Let's call our language "X".
 
 Summary

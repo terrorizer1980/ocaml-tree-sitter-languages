@@ -10,9 +10,4 @@ const standard_grammar = require('tree-sitter-lua/grammar');
 
 module.exports = grammar(standard_grammar, {
     name: 'lua',
-
-    rules: {
-        // could also do: identifier: ($, previous) => { choice(previous, ...)}
-        identifier: $ => /\$?[a-zA-Z_][a-zA-Z0-9_]*/
-    }
 });

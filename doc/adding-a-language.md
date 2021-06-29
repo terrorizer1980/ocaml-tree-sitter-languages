@@ -1,6 +1,10 @@
 How to add support for a new language
 ==
 
+⚠️ **This document is inherited from ocaml-tree-sitter-semgrep. It needs
+to be adapted as the project gets simplified and independent from
+semgrep.**
+
 This is about adding support for a new programming language in
 semgrep using the
 [tree-sitter](https://tree-sitter.github.io/tree-sitter/)

@@ -1,6 +1,10 @@
 Releasing generated code for semgrep
 ==
 
+⚠️ **This document is inherited from ocaml-tree-sitter-semgrep. It needs
+to be adapted as the project gets simplified and independent from
+semgrep.**
+
 The process for updating a grammar and releasing the generated code in
 described in details [in this document](updating-a-grammar.md).
 

@@ -1,19 +1,19 @@
-ocaml-tree-sitter-semgrep
+ocaml-tree-sitter-languages
 ==
 
-[![CircleCI](https://circleci.com/gh/returntocorp/ocaml-tree-sitter-semgrep.svg?style=svg)](https://circleci.com/gh/returntocorp/ocaml-tree-sitter-semgrep)
+[![CircleCI](https://circleci.com/gh/returntocorp/ocaml-tree-sitter-languages.svg?style=svg)](https://circleci.com/gh/returntocorp/ocaml-tree-sitter-languages)
 
 Generate OCaml parsers based on
-[tree-sitter](https://tree-sitter.github.io/tree-sitter/) grammars,
-for [semgrep](https://github.com/returntocorp/semgrep).
+[tree-sitter](https://tree-sitter.github.io/tree-sitter/) grammars.
 
 Related ocaml-tree-sitter repositories:
 * [ocaml-tree-sitter-core](https://github.com/returntocorp/ocaml-tree-sitter-core): provides the code generator that
   takes a tree-sitter grammar and produces an OCaml library from it.
-* [ocaml-tree-sitter-languages](https://github.com/returntocorp/ocaml-tree-sitter-languages): community repository that has scripts
-  for building and publishing OCaml libraries for parsing a variety of
-  programming languages.
-* **ocaml-tree-sitter-semgrep**: this repo; same as
+* **ocaml-tree-sitter-languages**: this repo; community repository
+  that has scripts for building and publishing OCaml libraries for
+  parsing a variety of programming languages. It's a simplified version of
+  ocaml-tree-sitter-semgrep.
+* [ocaml-tree-sitter-semgrep](https://github.com/returntocorp/ocaml-tree-sitter-semgrep): same as
   ocaml-tree-sitter-languages but extends each language with
   constructs specific to
   [semgrep](https://github.com/returntocorp/semgrep) patterns.
