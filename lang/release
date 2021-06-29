@@ -24,7 +24,7 @@ Usage: $prog_name LANG
 Options:
   --dry-run
       Do everything except committing the result to the git repo
-      semgrep-LANG. Also, this mode allows running without a
+      ocaml-tree-sitter-LANG. Also, this mode allows running without a
       clean git status in ocaml-tree-sitter. This is useful for testing.
   --help
       Print this message and exit.
@@ -137,7 +137,7 @@ copy_fyi_files() {
 
 export_dir="export"
 mkdir -p "$export_dir"
-repo="semgrep-$lang"
+repo="ocaml-tree-sitter-$lang"
 
 (
   cd "$export_dir"
