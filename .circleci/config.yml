@@ -17,7 +17,7 @@ jobs:
     # - xlarge: 16 GB
     resource_class: xlarge
 
-    working_directory: ~/ocaml-tree-sitter
+    working_directory: ~/ocaml-tree-sitter-languages
     steps:
       - checkout
       - run:
